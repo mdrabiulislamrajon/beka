@@ -1,5 +1,10 @@
 @extends('layouts.master')
 
+@include('layouts.common._navBrand', [
+    'url'   => url('employees'),
+    'title' => 'Employee Management'
+])
+
 @section('content')
     <div class="row">
         <div class="col-md-12">
@@ -14,7 +19,7 @@
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
         </div>

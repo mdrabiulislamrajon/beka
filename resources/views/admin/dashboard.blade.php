@@ -1,5 +1,10 @@
 @extends('layouts.master')
 
+@include('layouts.common._navBrand', [
+    'url'   => url('dashboard'),
+    'title' => 'Dashboard'
+])
+
 @section('content')
     <div class="row">
         <div class="col-md-4">
